@@ -4,7 +4,7 @@
   "description": "Vue Material Kit",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/myusername/my-app",
+  "homepage": "https://github.com/camcamejo/muslimah.github.io",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

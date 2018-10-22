@@ -4,12 +4,14 @@
   "description": "Vue Material Kit",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://github.com/myusername/my-app",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "npm run serve",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev", 
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "nouislider": "11.1.0",
@@ -28,6 +30,7 @@
     "@vue/eslint-config-prettier": "3.0.1",
     "node-sass": "4.9.3",
     "sass-loader": "7.1.0",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "2.5.17"
   }
 }
